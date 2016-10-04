@@ -52,6 +52,7 @@ int getch()
   tcsetattr(0, TCSAFLUSH, &save);
 
   return ch;
+  luangay
 }
 
 #endif
